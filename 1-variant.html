@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .page {
+            font-family: serif;
+        }
+
+        .page__body {
+            margin: auto;
+            width: 800px;
+            background-color: mediumpurple;
+        }
+
+        .news--first {
+            background-color: lightgreen;
+        }
+
+        .news--second {
+            background-color: peachpuff;
+        }
+
+        .news__title {
+            margin: 0;
+            padding: 15px;
+            font-weight: normal;
+            font-size: 20px;
+        }
+
+        .news__lead {
+            margin: 0;
+            padding: 15px;
+            padding-top: 0;
+            line-height: 1.4;
+        }
+
+        .columns__item {
+            padding: 0;
+            width: 50%;
+            vertical-align: top;
+        }
+
+        .columns__item--first {
+            padding-right: 10px;
+        }
+
+        .columns__item--second {
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body class="page__body">
+    <table class="columns">
+        <tr>
+            <td class="columns__item columns__item--first">
+                <article class="news news--first">
+                    <h2 class="news__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet blanditiis cupiditate eos odio tenetur voluptatum!</h2>
+                    <p class="news__lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at commodi consequuntur delectus eius expedita illum incidunt officiis sunt, voluptatum. A ab ad aliquid aspernatur cupiditate debitis earum esse illum iure iusto necessitatibus nesciunt nobis non placeat porro, praesentium provident qui quidem quisquam rerum saepe sequi soluta sunt ut voluptatem.</p>
+                </article>
+            </td>
+            <td  class="columns__item columns__item--second">
+                <article class="news news--second">
+                    <h2 class="news__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet blanditiis cupiditate eos odio tenetur voluptatum!</h2>
+                    <p class="news__lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at commodi consequuntur delectus eius expedita illum incidunt officiis sunt, voluptatum. A ab ad aliquid aspernatur cupiditate debitis earum esse illum iure iusto necessitatibus nesciunt nobis non placeat porro, praesentium provident qui quidem quisquam rerum saepe sequi soluta sunt ut voluptatem.</p>
+                </article>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
